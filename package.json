@@ -1,0 +1,25 @@
+{
+  "name": "@iamabbas/piaic-atm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "atm.js",
+  "type": "module",
+  "bin": {
+    "my-command": "./atm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bapernafrek/piaic-atm-03": "^1.0.3",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.10"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
